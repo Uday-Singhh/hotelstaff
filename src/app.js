@@ -1,5 +1,6 @@
 const express=require("express");
 const Staff=require("../model/mystaff");
+require("dotenv").config();
 require("../db/conn");
 const app=express();
 const port=process.env.PORT || 8000;
